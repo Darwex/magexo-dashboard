@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+  height: 72px;
+  background-color: #2e2e2e;
+}
+
+.header .logo {
+    margin: 0 30px;
+}
+
+.resources {
+    display: flex;
+}
+
+.resources button {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    transition: ease-in-out all 0.3s;
+    color: #FFFFFF;
+}
+
+.resources button:hover {
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+
+.resources .description {
+    margin-top: 10px;
+}
+
+.resources .glyphicon {
+    font-size: 300%;
+    color: #FFFFFF;
+}
+
