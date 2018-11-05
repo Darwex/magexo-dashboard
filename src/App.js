@@ -51,6 +51,7 @@ class App extends Component {
   renderResources() {
       return this.state.resources.map((resource, index) => (
           <Button
+              tabindex="1"
               key={index}
               onClick={() => this.resourceOnClick(resource.url)}
               style={{backgroundColor: resource.color}}
@@ -87,5 +88,6 @@ class App extends Component {
 // TODO add latest commits, branches etc..
 // TODO add latest confluence updates?
 // TODO add task progress
+// TODO add information how to get access, which account is being used
 
 export default App;

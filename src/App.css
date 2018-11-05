@@ -21,7 +21,9 @@
     color: #FFFFFF;
 }
 
-.resources button:hover {
+.resources button:hover,
+.resources button:active,
+.resources button:focus {
     color: #FFFFFF;
     transform: scale(1.1);
 }
